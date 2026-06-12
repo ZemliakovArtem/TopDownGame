@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9155839880481061146}
   - component: {fileID: 2859569275790327257}
   - component: {fileID: 8856469636905252076}
+  - component: {fileID: 127747253150110988}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -196,3 +197,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   damage: 1
   damageInterval: 1
+--- !u!114 &127747253150110988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6766042587053083893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f91dd02e2401e4489f63145b1329f71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  hp: 3

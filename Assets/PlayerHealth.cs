@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int hp = 3;
+    public int hp = 100;
 
     public GameObject gameOverUI;
 

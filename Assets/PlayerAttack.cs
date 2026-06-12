@@ -28,7 +28,12 @@ public class PlayerAttack : MonoBehaviour
             {
                 Debug.Log("HIT ENEMY");
 
-                Destroy(hit.gameObject);
+                EnemyHealth enemy = hit.GetComponent<EnemyHealth>();
+
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(damage);
+                }
             }
         }
     }
